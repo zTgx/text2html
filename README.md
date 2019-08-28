@@ -1,4 +1,5 @@
-# text2html
+# [text2html](https://github.com/zTgx/text2html) [![Build Status](https://travis-ci.org/zTgx/text2html.svg?branch=master)](https://travis-ci.org/zTgx/text2html) [![crate](https://img.shields.io/crates/v/text2html.svg)](https://crates.io/crates/text2html) 
+
 #### an exprimental project.
 WIP  
 A library render text to html in Rust.
