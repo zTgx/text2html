@@ -1,6 +1,6 @@
 [package]
 name = "text2html"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["zTgx <747674262@qq.com>"]
 edition = "2018"
 repository = "https://github.com/zTgx/text2html.git"
@@ -9,6 +9,7 @@ keywords = [ "text", "rendering", "html" ]
 categories = [ "development-tools" ]
 license = "MIT/Apache-2.0"
 exclude = [ "/.travis.yml" ]
-description = "A library for which render text to html in Rust"
+description = "A library render text to html in Rust"
 
 [dependencies]
+uuid = { version = "0.7", features = ["serde", "v4"] }

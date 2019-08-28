@@ -1,20 +1,6 @@
-# text2html
-#### an exprimental project.
-WIP  
-A library render text to html in Rust.
+extern crate text2html;
+use text2html::*;
 
-## Usage
-
-Add this to your `Cargo.toml`:
-
-```toml
-[dependencies]
-text2html = "0.0.1"
-```
-
----
-Example:
-```rust
 pub struct Content <'b> {
     pub c: &'b String,
 }
@@ -52,4 +38,3 @@ fn main() {
     let mut builder = TextBuilder::new( &text ).build();
     HtmlRender::new().render(&mut builder);
 }
-```
